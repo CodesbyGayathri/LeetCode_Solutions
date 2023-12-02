@@ -13,4 +13,7 @@ Explanation: The strings that can be formed are "cat" and "hat" so the answer is
 
 Aim is to check is a word in words is made up of characters from chars string. And return the sum of length of those words.
 
+example:
+Counter("rat") is Counter({'r': 1, 'a': 1, 't': 1}).
+The condition Counter("rat") <= Counter("abc") is False because the count of 'r' in "rat" (1) is greater than the count of 'r' in "abc" (0).
 '''
